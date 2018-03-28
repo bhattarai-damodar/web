@@ -1,0 +1,192 @@
+.logo img{
+	display: block;
+	
+	border-radius: 10%;
+	color: yellow;
+	height: 100px;
+	width: 100%;
+/* css for logo */
+}
+
+
+
+body {
+	background-image: url("../images/background.jpg");
+	background-attachment: fixed;
+	font-size:22px;
+	line-height: 32px;
+	color: green;
+	margin: 0;
+	padding: 0;
+	}
+
+nav { 
+	margin:0 3%;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	
+	
+
+
+}
+
+
+
+nav ul{
+	padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+	text-align: center;
+	display: none;
+}
+nav ul li {
+	margin: 0px;
+	display:inline-block;
+	width: 100%;
+	}
+nav a {
+	display:block;
+	padding: 2px 0px;	
+	color:#969696; /*for dark silver color */
+	font-size:20px;
+	text-decoration:none;
+	border: 1px solid green;
+	
+
+}
+nav a:hover { 
+	border: 2px solid silver;
+	color: black;
+}
+[id^=mobilemenu]{
+	display: none;
+}
+[id^=mobilemenu]:checked + ul {
+		display: block;
+
+
+
+	}
+.mobileview{
+	margin: 0px;
+	text-align: center;
+	display:inline-block;
+	background-color: #254441;
+}
+
+
+.top-section, .bottom-section{
+margin: 2% 3%;
+padding: 5% 2% ;
+text-align: center;
+border-radius: 15px 15px 0px 0px;
+}
+.top-section{
+	background-color: lightgreen;
+}
+.bottom-section{
+	background-color: white;
+}
+
+.top-photo img{
+	height: 250px;
+	width: auto;
+
+}
+.bottom-right-section{
+	display: flex;
+	flex-direction: row;
+	text-align: left;
+
+}
+.title{
+	font-size: 25px;
+	padding: 0;
+	margin: 0;
+}
+.subtitle{
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+#question{
+	margin: 0 20px 0 auto;
+	color: blue;
+}
+ #answer{
+ 	margin: 0 auto 0 20px;
+ 	color: black;
+ }
+input[type=button]{
+	font-size: 18px;
+	background: silver;
+	color: blue;
+	border: 2px solid green;
+}
+
+.slogo img{
+	height: 30px;
+	width: 30px;
+	
+}
+.slogo a{
+margin: 0 auto;
+padding: 10px 0px;
+	
+}
+
+
+
+
+
+@media all and (min-width : 700px) {
+nav{
+	display: flex;
+	flex-direction: row;
+}
+nav ul{
+	display: inline-block;
+	
+
+}
+nav ul li{
+	padding: 5px 1px;
+	
+
+}
+
+.mobileview{
+	display: none;
+}
+.logo{
+	width: 30%;
+}
+.menu{
+	width: 68%;
+	height: 50px;
+	display: flex;
+	flex-direction: row;
+	padding: 20px 0px 0px 0px;
+	margin: 0% 1%;
+
+}
+.top-section,.bottom-section{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	margin: 0% 3%;
+	
+}
+.top-section{
+	height: 150px;
+	padding-top: 5%;
+}
+.bottom-section{
+	padding-top:8%; 
+}
+
+
+}
+*/
