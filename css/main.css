@@ -155,13 +155,17 @@ height: 30px;
 	display: flex;
 	flex-direction: column;
 }
-.leftcolumn, .rightcolumn{
+.leftcolumn{
 	width: 94%;
 	margin:0 3%;
-	height: 500px;
-
-
+	height: 300px;
 }
+.rightcolumn{
+	width: 94%;
+	margin:0 3%;
+	height: auto;
+}
+
 .rightcolumn textarea{
 	width: 90%;
 }
@@ -243,6 +247,11 @@ nav ul li{
 }
 .contact{
 	flex-direction: row;
+}
+.leftcolumn, .rightcolumn{
+	width: 94%;
+	margin:0 3%;
+	height: auto;
 }
 
 
