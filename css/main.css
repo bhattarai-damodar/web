@@ -191,6 +191,34 @@ input[type=submit],[type=reset]{
 	margin: 5px 3px;
 	padding: 2px 8px;
 }
+.page-title{
+	color: white;
+	font-size: 30px;
+	text-align: center;
+	height: 50px;
+	background-color: lightgreen;
+	margin: 2% 3%;
+	padding: 3px 5px;
+	border-radius: 6px;
+}
+.social-page{
+	display: flex;
+	flex-direction: column;
+	margin: 2% 3%;
+	
+}
+.social-page img{
+	height: 130px;
+	width: 130px;
+	margin: 4px;
+
+}
+.column{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+
+}
 
 
 
@@ -253,7 +281,17 @@ nav ul li{
 	margin:0 3%;
 	height: auto;
 }
+.social-page{
+	flex-direction: row;
+	justify-content: space-around;
+}
+.social-page img{
+	margin: 2px 2px 50px 2px;
+}
+.column{
+	flex-direction: column;
 
+}
 
 }
 */
