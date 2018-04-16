@@ -96,6 +96,8 @@ border-radius: 15px 15px 0px 0px;
 .top-photo img{
 	height: 250px;
 	width: auto;
+	border: 2px solid green;
+	box-shadow: 4px 4px green;
 
 }
 .bottom-right-section{
@@ -117,6 +119,7 @@ border-radius: 15px 15px 0px 0px;
 #question{
 	margin: 0 20px 0 auto;
 	color: blue;
+	
 }
  #answer{
  	margin: 0 auto 0 20px;
@@ -151,7 +154,7 @@ height: 30px;
 	width: 30px;
 }
 
-.contact{
+.contact-page{
 	display: flex;
 	flex-direction: column;
 }
@@ -159,6 +162,9 @@ height: 30px;
 	width: 94%;
 	margin:0 3%;
 	height: 300px;
+}
+.leftcolumn img{
+	height: 
 }
 .rightcolumn{
 	width: 94%;
@@ -224,6 +230,7 @@ input[type=submit],[type=reset]{
 
 
 
+
 @media all and (min-width : 700px) {
 nav{
 	display: flex;
@@ -273,7 +280,7 @@ nav ul li{
 .bottom-section{
 	padding-top:8%; 
 }
-.contact{
+.contact-page{
 	flex-direction: row;
 }
 .leftcolumn, .rightcolumn{
