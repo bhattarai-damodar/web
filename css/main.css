@@ -13,11 +13,13 @@
 body {
 	background-image: url("../images/background.jpg");
 	background-attachment: fixed;
-	font-size:22px;
+	font-size:25px;
 	line-height: 32px;
 	color: green;
 	margin: 0;
 	padding: 0;
+		font-family: 'Gamja Flower', cursive;
+
 	}
 
 nav { 
@@ -105,6 +107,7 @@ border-radius: 15px 15px 0px 0px;
 	flex-direction: row;
 	text-align: left;
 
+
 }
 .title{
 	font-size: 25px;
@@ -119,11 +122,13 @@ border-radius: 15px 15px 0px 0px;
 #question{
 	margin: 0 20px 0 auto;
 	color: blue;
+	font-size: 25px;
 	
 }
  #answer{
  	margin: 0 auto 0 20px;
  	color: black;
+ 	font-size: 21px;
  }
 input[type=button]{
 	font-size: 18px;
@@ -153,7 +158,10 @@ footer{
 height: 30px;
 	width: 30px;
 }
-
+.menuimg {
+	width: 30px;
+	height: 20px;
+}
 .contact-page{
 	display: flex;
 	flex-direction: column;
@@ -224,6 +232,11 @@ input[type=submit],[type=reset]{
 	flex-direction: row;
 	justify-content: space-around;
 
+}
+.cv{
+	display: flex;
+	flex-direction: column;
+	margin: 2% 3%;
 }
 
 
@@ -299,6 +312,8 @@ nav ul li{
 	flex-direction: column;
 
 }
-
+.cv{
+	flex-direction: row;
+}
 }
 */
