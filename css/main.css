@@ -7,7 +7,10 @@
 	width: 100%;
 /* css for logo */
 }
+*{
+			font-family: 'Gamja Flower', cursive;
 
+}
 
 
 body {
@@ -18,7 +21,6 @@ body {
 	color: green;
 	margin: 0;
 	padding: 0;
-		font-family: 'Gamja Flower', cursive;
 
 	}
 
@@ -97,7 +99,7 @@ border-radius: 15px 15px 0px 0px;
 
 .top-photo img{
 	height: 250px;
-	width: auto;
+	width: 200px;
 	border: 2px solid green;
 	box-shadow: 4px 4px green;
 
@@ -172,7 +174,10 @@ height: 30px;
 	height: 300px;
 }
 .leftcolumn img{
-	height: 
+	height: 250px;
+	width: 200px;
+	border: 2px solid green;
+	
 }
 .rightcolumn{
 	width: 94%;
@@ -227,19 +232,89 @@ input[type=submit],[type=reset]{
 	margin: 4px;
 
 }
-.column{
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
 
-}
 .cv{
 	display: flex;
 	flex-direction: column;
 	margin: 2% 3%;
+	justify-content: space-around;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+
+
+}
+.sub-column{
+	border: 2px solid black;
+	box-shadow: 5px 5px silver;
+	margin: 5px 2px;
+}
+.topic{
+	margin: 0px;
+	padding: 0px;
+	font-size: 35px ;
+	color: blue;
+	text-align: center;
+
+}
+.sub-topic{
+	margin: 0px;
+	padding: 0px;
+	font-size: 30px ;
+	color: green;
+	text-align: center;
+}
+.details{
+	margin: 0px;
+	padding: 0px;
+	font-size: 25px ;
+	color: black;
+	text-align: center;
+}
+.progress-bar{
+	width: 100%;
+	margin: 2px 3%;
+	height: 20px;
+	position: relative;	
+	border:2px solid black;
+	padding: 5px;
+
 }
 
 
+.progress-bar > span{
+	display: block;
+	height: 100%;
+	background-color: blue;
+	position: relative;
+	overflow: hidden;
+	color: white;
+	text-align: right;
+	font-size: 20px;
+
+}
+
+.center{
+	margin: 0% auto 3% auto;
+	width:85%;
+
+}
+.effect{
+  background: #fff;
+  box-shadow:
+    0 -1px 1px silver,
+    0 -11px 0 -6px grey,
+    0 -11px 1px -5px silver,
+    0 -21px 0 -11px grey,
+    0 -21px 1px -10px silver;
+      padding: 15px;
+}
+.effect img{
+	height: 350px;
+	width: 300px;
+}
 
 
 
@@ -295,9 +370,10 @@ nav ul li{
 }
 .contact-page{
 	flex-direction: row;
+	
 }
 .leftcolumn, .rightcolumn{
-	width: 94%;
+	width: 50%;
 	margin:0 3%;
 	height: auto;
 }
@@ -309,11 +385,16 @@ nav ul li{
 	margin: 2px 2px 50px 2px;
 }
 .column{
-	flex-direction: column;
+	
 
 }
 .cv{
 	flex-direction: row;
+}
+.center{
+	margin: 0% auto 3% auto;
+	width:50%;
+
 }
 }
 */
