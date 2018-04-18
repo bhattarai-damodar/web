@@ -8,13 +8,13 @@
 /* css for logo */
 }
 *{
-			font-family: 'Gamja Flower', cursive;
+font-family: 'Gamja Flower', cursive;
 
 }
 
 
 body {
-	background-image: url("../images/background.jpg");
+	background-image: url("../images/background.jpg"); /* Background Image */
 	background-attachment: fixed;
 	font-size:25px;
 	line-height: 32px;
@@ -177,7 +177,7 @@ height: 30px;
 	height: 300px;
 	width: auto;
 	border: 2px solid green;
-	margin-bottom: 10px;
+	margin-bottom: 5px;
 }
 .rightcolumn{
 	width: 94%;
@@ -302,6 +302,8 @@ input[type=submit],[type=reset]{
 	width:85%;
 
 }
+
+/* To add the multiple page effect following codes were added. You can see this in about page */
 .effect{
   background: #fff;
   box-shadow:
@@ -310,11 +312,12 @@ input[type=submit],[type=reset]{
     0 -11px 1px -5px silver,
     0 -21px 0 -11px grey,
     0 -21px 1px -10px silver;
-      padding: 15px;
+      padding: 5px;
+
 }
 .effect img{
 	height: 300px;
-	width: auto
+	width: auto;
 }
 
 
@@ -386,17 +389,14 @@ nav ul li{
 .social-page img{
 	margin: 2px 2px 50px 2px;
 }
-.column{
-	
 
-}
 .cv{
 	flex-direction: row;
 }
 .center{
-	margin: 0% auto 3% auto;
+	margin: 0% auto 1% auto;
 	width:50%;
 
 }
 }
-*/
+
