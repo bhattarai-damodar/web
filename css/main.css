@@ -13,6 +13,7 @@ font-family: 'Gamja Flower', cursive;
 }
 
 
+
 body {
 	background-image: url("../images/background.jpg"); /* Background Image */
 	background-attachment: fixed;
@@ -96,6 +97,13 @@ border-radius: 15px 15px 0px 0px;
 .bottom-section{
 	background-color: white;
 }
+.bottom-left-section a{
+
+	text-decoration: none;
+	border: 3px solid green;
+	padding: 0px 5px;
+	color: black;
+}
 
 .top-photo img{
 	height: 250px;
@@ -132,12 +140,7 @@ border-radius: 15px 15px 0px 0px;
  	color: black;
  	font-size: 21px;
  }
-input[type=button]{
-	font-size: 18px;
-	background: silver;
-	color: blue;
-	border: 2px solid green;
-}
+
 
 .slogo img{
 	height: 30px;
@@ -365,6 +368,7 @@ nav ul li{
 	margin: 0% 3%;
 	
 }
+
 .top-section{
 	height: 150px;
 	padding-top: 5%;
