@@ -336,9 +336,14 @@
          width: 45%;
          margin:0 3%;
     }
+    .map{
+        height: 100%;
+        width: 100%;
+    }
      .social-page{
          flex-direction: row;
          justify-content: space-around;
+    }
     }
      .social-page img{
          margin: 2px 2px 50px 2px;
@@ -351,8 +356,8 @@
          width:50%;
     }
      footer{
-         justify-content: space-between;
-         flex-direction: row;
+        flex-direction: row;
+        justify-content: space-between;
     }
 }
  
