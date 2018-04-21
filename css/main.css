@@ -14,7 +14,7 @@
 }
 @keyframes change{
 from{
-    color: white
+    color: white;
     font-size:30px;
 }
 to{
@@ -225,6 +225,7 @@ nav ul li:hover{
 .media img{
     height: 150px;
     width: 150px;
+    transition: 1s;
 
 }
      iframe{
@@ -320,7 +321,8 @@ input[type=text]{
 .cv-title{
     display: flex;
     flex-direction: column;
-    background-color: #505050
+    background-color: #505050;
+    padding: 3px 5px;
 }
 .fcircle{
     height: 20px;
@@ -440,10 +442,20 @@ input[type=text]{
       
 
     }
+    .title a:hover{
+        background-color: darkgreen;
+    }
     .box3{
         width: 55%;
     }
     .box4{
         width: 35%;
     }
+    .media img:hover{
+         transform: rotate(360deg);
+         height: 200px;
+         width: 200px;
+
+    }
+
 }
